@@ -12,20 +12,20 @@
 					<ot:translatedText lang="de"/>
 				</ot:schemaObjectDescription>
 			</ot:namespace>
-			<ot:namespace id="_3" name="C.1.1" alias="C11" parent="_2">
+			<ot:namespace id="_3" name="C.1.1 Neu" alias="C11Neu" parent="_2">
 				<ot:schemaObjectDescription>
 					<ot:translatedText lang="de"/>
 				</ot:schemaObjectDescription>
 			</ot:namespace>
 		</sem:extensionElements>
 	</sem:itemDefinition>
-	<sem:process name="process10" ot:alias="process10" id="_5">
+	<sem:process name="process10" ot:alias="process1" id="_5">
 		<sem:extensionElements>
 			<ot:startPermission/>
 		</sem:extensionElements>
-		<sem:dataObject id="_6" name="clarified" ot:alias="dataObj3" ot:displayName="clarified"/>
-		<sem:dataObject id="_7" name="approver" ot:alias="dataObj1" ot:displayName="approver"/>
-		<sem:dataObject id="_8" name="approved" ot:alias="dataObj2" ot:displayName="approved"/>
+		<sem:dataObject id="_6" name="approver" ot:alias="dataObj1" ot:displayName="approver"/>
+		<sem:dataObject id="_7" name="approved" ot:alias="dataObj2" ot:displayName="approved"/>
+		<sem:dataObject id="_8" name="clarified" ot:alias="dataObj3" ot:displayName="clarified"/>
 		<sem:sequenceFlow id="_9" ot:alias="flow8" sourceRef="_10" targetRef="_11"/>
 		<sem:sequenceFlow id="_12" ot:alias="flow11" sourceRef="_11" targetRef="_13"/>
 		<sem:sequenceFlow id="_14" ot:alias="flow12" sourceRef="_13" targetRef="_15"/>
@@ -95,12 +95,12 @@
 		</sem:userTask>
 		<sem:exclusiveGateway id="_25" name="Review successful?" ot:displayName="Review successful?" ot:alias="gateway3"/>
 		<sem:endEvent id="_27" name="Invoice not processed" ot:displayName="Invoice not processed" ot:alias="event7"/>
-		<sem:dataObjectReference id="_30" dataObjectRef="_7"/>
-		<sem:dataObjectReference id="_32" dataObjectRef="_8"/>
-		<sem:dataObjectReference id="_34" dataObjectRef="_6"/>
+		<sem:dataObjectReference id="_30" dataObjectRef="_6"/>
+		<sem:dataObjectReference id="_32" dataObjectRef="_7"/>
+		<sem:dataObjectReference id="_34" dataObjectRef="_8"/>
 	</sem:process>
-	<bpmndi:BPMNDiagram id="_4" name="C.1.1 Diagram">
-		<bpmndi:BPMNPlane ot:namespace="_3" ot:alias="C11Diagram" ot:diagramType="executable" bpmnElement="_5">
+	<bpmndi:BPMNDiagram id="_4" name="C.1.1">
+		<bpmndi:BPMNPlane ot:namespace="_3" ot:alias="C11" ot:diagramType="executable" bpmnElement="_5">
 			<di:extension>
 				<ot:schemaObjectDescription>
 					<ot:translatedText lang="de"/>

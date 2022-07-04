@@ -12,7 +12,7 @@
 					<ot:translatedText lang="de"/>
 				</ot:schemaObjectDescription>
 			</ot:namespace>
-			<ot:namespace id="_3" name="C.1.0" alias="C10" parent="_2">
+			<ot:namespace id="_3" name="C.1.0 Neu" alias="C10Neu" parent="_2">
 				<ot:schemaObjectDescription>
 					<ot:translatedText lang="de"/>
 				</ot:schemaObjectDescription>
